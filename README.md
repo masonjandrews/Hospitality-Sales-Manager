@@ -14,4 +14,4 @@ NOTE:
 CSV OUTPUT:
     Date, gross sales, net sales
 
-    
+Copyright: 2022, Mason J. Andrews
