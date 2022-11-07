@@ -1,3 +1,5 @@
+THIS PROJECT IS UNFINISHED -- NET SALES ARE NOT WORKED OUT NOR WRITTEN
+
 # Hospitality Sales Manager
  A tool to work out, record, store, and manage sales figures for a Hospitality business.
 
