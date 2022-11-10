@@ -10,7 +10,7 @@ tax = 1.2 #Define the tax rate, set as variable so it can be changed accordingly
 
 net = gross / tax #Work out the net sales by dividing by the tax rate
 
-with open('sales.csv', mode='w') as sales: #Create sales.csv and open it
+with open('sales.csv', mode='a') as sales: #Create sales.csv and open it
     sales_writer = csv.writer(sales, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL) #Define the writing algorithm
 
     sales_writer.writerow(['Date', 'Gross', 'Net']) #Write headings into file for readability
